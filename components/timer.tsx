@@ -12,7 +12,7 @@ export default function Timer(props: timerProps) {
   return (
     <div className={styles.timer}>
       <CountdownCircleTimer
-        size={window.innerWidth === 400 ? 100 : 120}
+        size={window.innerWidth === 300 ? 90 : 120}
         isPlaying
         duration={props.duration}
         onComplete={props.timeOut}

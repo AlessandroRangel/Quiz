@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from "react";
 import Questionnaire from "../components/questionnaire";
 import { useRouter } from "next/router";
 
-const BASE_URL = "https://quiz-kappa-two.vercel.app/api";
+const BASE_URL = "http://localhost:3000/api";
 
 export default function Home() {
   const [ids, setIds] = useState<number[]>([]);

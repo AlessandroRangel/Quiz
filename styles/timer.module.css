@@ -4,7 +4,7 @@
   margin: 20px 0;
 }
 
-@media (min-width: 400px) and (max-width: 800px) {
+@media (min-width: 300px) and (max-width: 800px) {
   .timer {
     font-size: 1.5rem;
   }
