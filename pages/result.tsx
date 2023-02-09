@@ -12,7 +12,7 @@ export default function Result() {
   return (
     <div className={styles.result}>
       <h1>Resultado Final</h1>
-      <div style={{ display: "flex" }}>
+      <div className={styles.div}>
         <Statistic text="Perguntas" value={total.toString()} />
         <Statistic
           text="Certas"
@@ -25,7 +25,7 @@ export default function Result() {
           backgroundColor="#de6a33"
         />
       </div>
-      <Button href="/" text="Tentar Novamente" />
+      <Button href="/" text="Tentar" />
     </div>
   );
 }

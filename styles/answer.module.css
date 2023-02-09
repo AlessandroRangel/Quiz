@@ -77,3 +77,10 @@
   font-size: 1.3rem;
   font-weight: 700;
 }
+
+@media (min-width: 400px) and (max-width: 800px) {
+  .answer {
+    min-width: 300px;
+    width: 30%;
+  }
+}

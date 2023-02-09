@@ -68,6 +68,7 @@ export default function Home() {
     const nextId = idNextQuestion();
     nextId ? toNextQuestion(nextId) : endQuiz();
   }
+
   return (
     <div
       style={{
